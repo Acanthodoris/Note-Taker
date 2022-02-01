@@ -7,13 +7,13 @@
 const express = require('express');
 
 const notesRouter = require('./html');
-const indexRouter = require('/');
+const indexRouter = require('*');
 
 
 const app = express();
 
 app.use('./notes', notesRouter);
-app.use('/', indexRouter);
+app.use('*', indexRouter);
 
 
 module.exports = app

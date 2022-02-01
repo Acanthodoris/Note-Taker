@@ -15,11 +15,10 @@
 
 
 ## Overveiw:
-* 
+* I got very confused and lost with where to start, I appericate the starter code. But I think it ended up confusing more than it should have. I'm not finished yet and plan on doing so soon.
 
 
 ## Demo:
-* I tested the project by running it in the intergrated terminal.
 ![a demo of how to test the app](/demo.gif)
 
 ## Links:
