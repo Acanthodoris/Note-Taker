@@ -15,7 +15,7 @@
 
 
 ## Overveiw:
-* After submiting it I started over since I think I altered the starter code. So I started over after going over the mini project again I had a better understanding on what to do.
+* After submiting it I started over since I think I altered the starter code. So I started over after going over the mini project again I had a better understanding on what to do. I cannot get it to work on heroku.
 
 
 ## Demo:
