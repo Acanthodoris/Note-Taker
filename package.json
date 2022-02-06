@@ -2,8 +2,10 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "node server.js",
-  "scripts": {
+  "main": "server.js",
+  "postinstall": "npm run build",
+  "start": "node server.js",
+  "scripts": {  
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
