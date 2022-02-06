@@ -1,17 +1,27 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description * By modifying a starter code I will create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.",
   "main": "server.js",
   "postinstall": "npm run build",
   "start": "node server.js",
-  "scripts": {  
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
     "uuid": "^8.3.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acanthodoris/Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Acanthodoris/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/Acanthodoris/Note-Taker#readme"
 }

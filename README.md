@@ -24,7 +24,7 @@
 ## Links:
 ### [GitHub](https://github.com/Acanthodoris/Note-Taker)
 
-### [GitHub Page](https://acanthodoris.github.io/Note-Taker/)
+### [Heroku Page](https://shielded-garden-78851.herokuapp.com/)
 
 ## Credits:
 * https://nodejs.org/en/docs/guides/getting-started-guide/
