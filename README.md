@@ -15,15 +15,20 @@
 
 
 ## Overveiw:
-* I got very confused and lost with where to start, I appericate the starter code. But I think it ended up confusing more than it should have. I'm not finished yet and plan on doing so soon.
+* After submiting it I started over since I think I altered the starter code. So I started over after going over the mini project again I had a better understanding on what to do.
 
 
 ## Demo:
 ![a demo of how to test the app](/demo.gif)
 
 ## Links:
-* https://
+### [GitHub](https://github.com/Acanthodoris/Note-Taker)
 
+### [GitHub Page](https://acanthodoris.github.io/Note-Taker/)
 
 ## Credits:
 * https://nodejs.org/en/docs/guides/getting-started-guide/
+* https://expressjs.com/en/4x/api.html#app.use
+* https://stackoverflow.com/questions/27599614/var-express-requireexpress-var-app-express-what-is-express-is-it
+* https://stackoverflow.com/questions/27465850/typeerror-router-use-requires-middleware-function-but-got-a-object
+* https://stackoverflow.com/questions/20458890/delete-data-from-json-array
