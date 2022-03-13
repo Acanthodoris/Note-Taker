@@ -1,36 +1,17 @@
-const notes = require('express').Router();
-const { readFromFile, readAndAppend, readAndDelete } = require('../helper/fsUtils');
-const { v4: uuidv4 } = require('uuid');
+const path = require('path');
+const router = require('express').Router();
 
-notes.get('/notes', (req, res) => {
-  readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
+router.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/notes.html'));
 });
 
-notes.post('/notes', (req, res) => {
-  console.log(req.body);
-
-  const { title, text } = req.body;  
-
-  if (req.body) {
-    const newNote = {
-      title,
-      text,
-      note_id: uuidv4(),
-    };
-
-    readAndAppend(newNote, './db/db.json');
-    res.json(newNote);
-  } else {
-    res.error('Error in adding your note');
-  }
+router.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
-notes.delete('/notes/:id', (req, res) => {
-    console.log(req.params.id);
-    if (req.body){
-        readAndDelete(req.params.id, './db/db.json')
-        res.send(true)
-    }
-  });
+router.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'));
+});
 
-module.exports = notes;
+
+module.exports = router;

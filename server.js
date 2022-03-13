@@ -3,8 +3,6 @@ const path = require('path');
 const { clog } = require('./middleware/clog');
 const api = require('./Routes/index.js');
 
-const PORT = process.env.port || 3001;
-
 const app = express();
 
 app.use(clog);
