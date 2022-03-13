@@ -5,6 +5,8 @@ const api = require('./Routes/index.js');
 
 const app = express();
 
+const PORT = process.env.PORT || 3000;
+
 app.use(clog);
 
 app.use(express.json());
